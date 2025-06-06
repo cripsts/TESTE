@@ -72,6 +72,12 @@ ul {
     font-size: 1rem;
     border-radius: var(--border-radius);
     transition: background-color var(--transition), color var(--transition);
+    outline: none;
+}
+
+.btn:focus {
+    outline: 2px dashed var(--color-primary);
+    outline-offset: 2px;
 }
 
 .btn-primary {
